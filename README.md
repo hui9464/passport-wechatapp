@@ -1,4 +1,4 @@
-# passport-miniapp
+# passport-wechatapp
 小程序登陆验证
 
 

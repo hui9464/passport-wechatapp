@@ -1,16 +1,27 @@
 {
   "name": "passport-wechatapp",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "小程序登陆验证",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {},
+  "main": "./dist/",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hui9464/passport-wechatapp.git"
   },
-  "author": "",
+  "author": {
+    "name": "hui9464"
+  },
   "license": "ISC",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/hui9464/passport-wechatapp/issues"
   },
@@ -22,5 +33,6 @@
   "devDependencies": {
     "@types/node": "^13.7.4",
     "@types/passport": "^1.0.2"
-  }
+  },
+  "files": ["dist/"]
 }
